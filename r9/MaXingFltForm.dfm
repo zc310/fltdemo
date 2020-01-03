@@ -1,0 +1,399 @@
+object frmMaXingFlt: TfrmMaXingFlt
+  Left = 263
+  Top = 203
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = #30721#22411#36807#28388
+  ClientHeight = 381
+  ClientWidth = 561
+  Color = clBtnFace
+  Font.Charset = GB2312_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = #23435#20307
+  Font.Style = []
+  Icon.Data = {
+    0000010002002020100000000000E80200002600000010101000000000002801
+    00000E0300002800000020000000400000000100040000000000800200000000
+    0000000000000000000000000000000000000000800000800000008080008000
+    0000800080008080000080808000C0C0C0000000FF0000FF000000FFFF00FF00
+    0000FF00FF00FFFF0000FFFFFF00000000000000000000000000000000000000
+    000000000000000FEE00000000000000000000000000070FEEEEE00000000000
+    00000000007F7E0F00EEEEEE000000000000000FF7E7E70F08000EEEEEE00000
+    00007F7EEE7E7E0F0E8E0EEEEEE000000FFFE7E7EEE7E70F00E80EEEEEE000FF
+    FEEEEE7E7EEE7E0FEE000EEEEEE0000EEEEEEEE7E7EEE70000EEEEEEEEE00EE0
+    00EEEEEE7E7E0008E8000EEEEEE00FEEE8000EEEE0008E8E8E8E8000EEE00F00
+    EE8E800008E8E8E8E80000E800000F0F00EEE8E80E8E8E800000008EE8E00F0F
+    F0EEEE8E08E80000000000E800000FE000EEEEE8000000FF000000000000000E
+    EEEEE000FFBFFFBF000000000000000000EE0FFFFFFFFFF00000000000000000
+    00000FFFBFFFBFF0000000000000000000000FFFFFFFFFF00000000000000000
+    0000FFBFFFBFFF0000000000000000000000FFFFFFFFFF000000000000000000
+    0000BFFFBFFFBF000000000000000000000FFFF000FFF0000000000000000000
+    000FFF0FF0FFF0000000000000000000000000FF000000000000000000000000
+    000FFFF000F00000000000000000000000FFFFF000F000000000000000000FFF
+    FFFFFFF00FF000000000000000000FFFFFFFFFFFFF0000000000000000000FFF
+    FFFFFFFFF0000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000FFFFC3FFFFFF807FFFFC000FFFE00001FF00
+    0000F8000000C000000000000000000000000000000000000000000000000000
+    0380000007810000078F000007FFE0000FFFFC000FFFFF000FFFFE001FFFFE00
+    1FFFFE001FFFFC003FFFFC003FFFFC003FFFF808FFFF0008FFFF0000FFFF0001
+    FFFF0003FFFF0007FFFFFFFFFFFF280000001000000020000000010004000000
+    0000C00000000000000000000000000000000000000000000000000080000080
+    00000080800080000000800080008080000080808000C0C0C0000000FF0000FF
+    000000FFFF00FF000000FF00FF00FFFF0000FFFFFF0000000000000000000000
+    0000EEE0000000000E80EEEEE00000EE8EE00EEEEEE0000EE8E0000EEEE00EE0
+    0008E8E00EE00EEEE08E800080000EEEE0E00B00E8E000E0000FB00080000000
+    0FFFF00000000000BFBFB00000000000F00F0000000000000FF0F0000000000F
+    FF0F000000000FFFFFF0000000000000000000000000FF1F0000F8070000C001
+    0000000000000000000000000000000000000020000080210000C0270000E03F
+    0000E03F0000C03F0000007F000000FF000001FF0000}
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 12
+  object Label6: TLabel
+    Left = 14
+    Top = 78
+    Width = 147
+    Height = 12
+    AutoSize = False
+    Caption = #21487#36873#25321#30721#22411'('#32988'-'#24179'-'#36127')'
+  end
+  object Label7: TLabel
+    Left = 224
+    Top = 78
+    Width = 150
+    Height = 12
+    AutoSize = False
+    Caption = #24050#36873#25321#30721#22411'('#32988'-'#24179'-'#36127')'
+  end
+  object Label14: TLabel
+    Left = 392
+    Top = 192
+    Width = 153
+    Height = 132
+    AutoSize = False
+    Caption = 
+      '['#35828#26126']'#13#13#30721#22411#36807#28388#26159#38024#23545#21333#27880#20013#32988#65288'3'#65289#12289#24179#65288'1'#65289#12289#36127#65288'0'#65289#20010#25968#30340#32452#21512#24418#24335#36827#34892#36807#28388#12290#13#13#20363#22914#65306'33333311111000 '#30340#30721 +
+      #22411#20026' 6- 5- 3'#13#21448#22914#65306'03033330101000 '#30340#30721#22411#20026' 5- 2- 7'
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    ParentFont = False
+    WordWrap = True
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 561
+    Height = 65
+    Align = alTop
+    BevelOuter = bvNone
+    Color = clWhite
+    TabOrder = 0
+    object Image1: TImage
+      Left = 504
+      Top = 11
+      Width = 41
+      Height = 33
+      Picture.Data = {
+        055449636F6E0000010002002020020000000000300100002600000020201000
+        00000000E8020000560100002800000020000000400000000100010000000000
+        000100000000000000000000000000000000000000000000FFFFFF0000000000
+        00000000000001F00000070800000E0400000C0040071C00200E1C00200E1C00
+        1FFC1C00181C1C0008380C0408380E0C0470071C047001E402E0000002E00000
+        01C03E0001C0FC000081F0000080E04000000060000080E00000C1E00000C3C0
+        0000C0000000C0000000C1800009C3C0000FC7000007860000000000FFFFFF07
+        FFFFFC03FFFFF801FFFFF0008FF820F00FF020F907F040FF800040FF8000C0FF
+        C000C0FCC001C0F8E181E070E083E000F003F000F007F800F807E019F80B807F
+        FC04003FFC18001FFE1C030FFE3E0F07FF7E1F07FFFE0807FFFA000FFFF6081F
+        FFE60C3FFFE20E1FFFE00C0FFFE0000FFFE0001FFFF030FFFFF879FF28000000
+        2000000040000000010004000000000080020000000000000000000000000000
+        0000000000000000000080000080000000808000800000008000800080800000
+        80808000C0C0C0000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000
+        FFFFFF0000000000000000000000000077777000000000000000000000000070
+        0000770000000000000000000000000888880770000000000000000000000888
+        0000807707770000000007777700888000000807000700000000000007008807
+        0000000009077000000009990008880700000000009077777770999070088807
+        0000000000900000000099900008880700000000000999999999990700088807
+        0000007700099000000999000008880700000007000090700099907000008807
+        7000080700009077009990000000888077708807000009070999070000000888
+        0008880700000907099900000000000888800807000000909990700000077770
+        0000000000000090999007000700000770000000000000099907007700CCCCC0
+        770000000000000999000000CCCCCC0007700000000000009070000CCCCC0000
+        007700000000000090000000CCC000000C077000000000000000000000000000
+        0CC070000000000000000000C0770770CCC070000000000000000700CC07000C
+        CCC000000000000000000000CC0700CCCC0000000000000000007000CC070000
+        000000000000000000007700CC070000077000000000000000000770CC07000C
+        C0770000000000000000C00CCC0770CCCC070000000000000000CCCCCC000CCC
+        000000000000000000000CCCC0000CC000000000000000000000000000000000
+        00000000FFFFFF07FFFFFC03FFFFF801FFFFF0008FF820F00FF020F907F040FF
+        800040FF8000C0FFC000C0FCC001C0F8E181E070E083E000F003F000F007F800
+        F807E019F80B807FFC04003FFC18001FFE1C030FFE3E0F07FF7E1F07FFFE0807
+        FFFA000FFFF6081FFFE60C3FFFE20E1FFFE00C0FFFE0000FFFE0001FFFF030FF
+        FFF879FF}
+    end
+    object Label1: TLabel
+      Left = 16
+      Top = 11
+      Width = 257
+      Height = 13
+      AutoSize = False
+      Caption = #30721#22411#36807#28388'('#32988#36127#24425')'
+      Font.Charset = GB2312_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = #23435#20307
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 16
+      Top = 31
+      Width = 417
+      Height = 25
+      AutoSize = False
+      Caption = #30721#22411#36807#28388#26159#38024#23545#21333#27880#20013#32988#65288'3'#65289#12289#24179#65288'1'#65289#12289#36127#65288'0'#65289#30340#20986#21495#20010#25968#30340#32452#21512#24418#24335#36827#34892#36807#28388#12290
+      WordWrap = True
+    end
+    object Bevel2: TBevel
+      Left = 0
+      Top = 63
+      Width = 561
+      Height = 2
+      Align = alBottom
+    end
+  end
+  object lstAllMX: TListBox
+    Left = 14
+    Top = 94
+    Width = 142
+    Height = 235
+    Ctl3D = False
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    ItemHeight = 12
+    MultiSelect = True
+    ParentCtl3D = False
+    ParentFont = False
+    Sorted = True
+    TabOrder = 1
+    OnDblClick = btnAddMXClick
+  end
+  object btnAddMX: TBitBtn
+    Left = 164
+    Top = 120
+    Width = 52
+    Height = 21
+    Caption = #28155#21152' =>'
+    TabOrder = 2
+    OnClick = btnAddMXClick
+  end
+  object btnAddAllMX: TBitBtn
+    Left = 164
+    Top = 144
+    Width = 52
+    Height = 21
+    Caption = #20840#36873' >>'
+    TabOrder = 3
+    OnClick = btnAddAllMXClick
+  end
+  object btnMXDelete: TBitBtn
+    Left = 164
+    Top = 187
+    Width = 52
+    Height = 21
+    Caption = #21024#38500' <='
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    OnClick = btnMXDeleteClick
+  end
+  object btnMXDeleteAll: TBitBtn
+    Left = 164
+    Top = 211
+    Width = 52
+    Height = 21
+    Caption = #20840#21024' <<'
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+    OnClick = btnMXDeleteAllClick
+  end
+  object lstMXFilter: TListBox
+    Left = 224
+    Top = 94
+    Width = 142
+    Height = 235
+    Hint = #31526#21512#36830#22411#26465#20214#30340#25237#27880#23558#34987#28388#38500
+    Ctl3D = False
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    ItemHeight = 12
+    MultiSelect = True
+    ParentCtl3D = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    Sorted = True
+    TabOrder = 6
+    OnDblClick = btnMXDeleteClick
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 340
+    Width = 561
+    Height = 41
+    Align = alBottom
+    BevelOuter = bvNone
+    TabOrder = 7
+    object Bevel1: TBevel
+      Left = 0
+      Top = 0
+      Width = 561
+      Height = 2
+      Align = alTop
+    end
+    object btnCancel: TBitBtn
+      Left = 374
+      Top = 10
+      Width = 62
+      Height = 23
+      Cancel = True
+      Caption = #20851' '#38381
+      Font.Charset = GB2312_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = #23435#20307
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+      OnClick = btnCancelClick
+    end
+    object btnHelp: TBitBtn
+      Left = 454
+      Top = 10
+      Width = 62
+      Height = 23
+      Caption = #24110' '#21161
+      Font.Charset = GB2312_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = #23435#20307
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 1
+      OnClick = btnHelpClick
+    end
+    object btnOK: TBitBtn
+      Left = 302
+      Top = 10
+      Width = 62
+      Height = 23
+      Caption = #30830' '#23450
+      Default = True
+      Font.Charset = GB2312_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = #23435#20307
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 2
+      OnClick = btnOKClick
+    end
+    object btnSave: TBitBtn
+      Left = 21
+      Top = 11
+      Width = 72
+      Height = 22
+      Caption = #20445#23384#25991#20214
+      Enabled = False
+      Font.Charset = GB2312_CHARSET
+      Font.Color = clBlack
+      Font.Height = -12
+      Font.Name = #23435#20307
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 3
+    end
+    object btnLoad: TBitBtn
+      Left = 103
+      Top = 11
+      Width = 71
+      Height = 22
+      Caption = #35843#20986#25991#20214
+      Enabled = False
+      Font.Charset = GB2312_CHARSET
+      Font.Color = clBlack
+      Font.Height = -12
+      Font.Name = #23435#20307
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 4
+    end
+  end
+  object GroupBox1: TGroupBox
+    Left = 393
+    Top = 89
+    Width = 151
+    Height = 81
+    Caption = #36807#28388#25805#20316
+    TabOrder = 8
+    object Label3: TLabel
+      Left = 16
+      Top = 45
+      Width = 121
+      Height = 28
+      AutoSize = False
+      Caption = #31526#21512#25152#36873#25321#30721#22411#26684#24335#30340#25237#27880#32467#26524#12290
+      WordWrap = True
+    end
+    object rdbDelete: TRadioButton
+      Left = 16
+      Top = 22
+      Width = 49
+      Height = 17
+      Caption = #28388#38500
+      Checked = True
+      Font.Charset = GB2312_CHARSET
+      Font.Color = clMaroon
+      Font.Height = -12
+      Font.Name = #23435#20307
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+      TabStop = True
+    end
+    object rdbKeep: TRadioButton
+      Left = 72
+      Top = 22
+      Width = 49
+      Height = 17
+      Caption = #20445#30041
+      Font.Charset = GB2312_CHARSET
+      Font.Color = clMaroon
+      Font.Height = -12
+      Font.Name = #23435#20307
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 1
+    end
+  end
+end
